@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 # WEB SCRAPHING/EXTRACTING DATA FROM FINVIZ
 
 finviz_url = 'https://finviz.com/quote.ashx?t='
-tickers = ['AMZN', 'GOOG', 'FB' ,'NFLX' , 'AAPL']
+tickers = ['AMZN', 'GOOG', 'FB']
 
 news_tables = {}
 for ticker in tickers:
